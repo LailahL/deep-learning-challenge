@@ -9,19 +9,19 @@ Due to the time constraints, data used for training & testing were limited to 30
 
 ### 1. Adam Optimizer (AlphabetSoupCharity.h5)
 This prediction optimizer is not quite accurate with an accuracy score of only 73.90% and a data loss of about 54%
-![adam](adam.png)
+![adam](Images/adam.png)
 
 ### 2. Adam Optimizer using Keras Tuner ** Optimum model (AlphabetSoupCharity-Optimization1.h5)
 This prediction optimizer has a better accuracy score of 75.04% and a data loss of about 53.66%.  The model selects the optimum number of neurons & layers to use based on the provided range.
-![adam_kerastuner](adam_kerastuner.png)
+![adam_kerastuner](Images/adam_kerastuner.png)
 
 ### 3. Adagrad Optimizer (AlphabetSoupCharity-Optimization2.h5)
 This prediction optimizer has an accuracy score of 74.25% and a data loss of about 53.70%
-![adagrad](adagrad.png)
+![adagrad](Images/adagrad.png)
 
 ### 4. Gradient Descent Optimizer (AlphabetSoupCharity-Optimization3.h5)
 This prediction optimizer has an accuracy score of 73.84% and a data loss of about 53.80%
-![gds](gds.png)
+![gds](Images/gds.png)
 
 
 ## SUMMARY
